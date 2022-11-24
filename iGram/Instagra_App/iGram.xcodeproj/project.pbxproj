@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85F390282927DB6200B0D64B /* Instagra_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F390272927DB6200B0D64B /* Instagra_AppApp.swift */; };
+		85F3902A2927DB6200B0D64B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F390292927DB6200B0D64B /* ContentView.swift */; };
+		85F3902C2927DB6300B0D64B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85F3902B2927DB6300B0D64B /* Assets.xcassets */; };
+		85F3902F2927DB6300B0D64B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85F3902E2927DB6300B0D64B /* Preview Assets.xcassets */; };
+		85F390392927DB6300B0D64B /* Instagra_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F390382927DB6300B0D64B /* Instagra_AppTests.swift */; };
+		85F390432927DB6300B0D64B /* Instagra_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F390422927DB6300B0D64B /* Instagra_AppUITests.swift */; };
+		85F390452927DB6300B0D64B /* Instagra_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F390442927DB6300B0D64B /* Instagra_AppUITestsLaunchTests.swift */; };
+		85F390522929389B00B0D64B /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F390512929389B00B0D64B /* Header.swift */; };
+		85F390562929619900B0D64B /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F390552929619900B0D64B /* Story.swift */; };
+		85F3905A29296A6C00B0D64B /* StoriesScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3905929296A6C00B0D64B /* StoriesScroll.swift */; };
+		85F3905C292A4BF300B0D64B /* PostHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3905B292A4BF300B0D64B /* PostHeader.swift */; };
+		85F3905E292A527000B0D64B /* PostContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3905D292A527000B0D64B /* PostContent.swift */; };
+		85F39060292A657E00B0D64B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3905F292A657E00B0D64B /* Post.swift */; };
+		85F39062292A68DB00B0D64B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F39061292A68DB00B0D64B /* MainView.swift */; };
+		85F39064292A9F7C00B0D64B /* profileIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F39063292A9F7C00B0D64B /* profileIcon.swift */; };
+		85F39067292AC43600B0D64B /* PostStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F39066292AC43600B0D64B /* PostStruct.swift */; };
+		85F39069292AC6D000B0D64B /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F39068292AC6D000B0D64B /* Database.swift */; };
+		85F3906C292ACBCC00B0D64B /* ViewModelMana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3906B292ACBCC00B0D64B /* ViewModelMana.swift */; };
+		85F39071292CC77100B0D64B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F39070292CC77100B0D64B /* SearchView.swift */; };
+		85F39073292CCE9100B0D64B /* ShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F39072292CCE9100B0D64B /* ShowView.swift */; };
+		85F3907A292CD12000B0D64B /* Reels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F39079292CD12000B0D64B /* Reels.swift */; };
+		85F3907C292CD7A700B0D64B /* ReelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3907B292CD7A700B0D64B /* ReelsView.swift */; };
+		85F39085292E626200B0D64B /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F39084292E626200B0D64B /* ProfileHeader.swift */; };
+		85F39087292E63BB00B0D64B /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F39086292E63BB00B0D64B /* Profile.swift */; };
+		85F3908D292E7E7F00B0D64B /* ProfileDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3908C292E7E7F00B0D64B /* ProfileDetails.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85F390352927DB6300B0D64B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85F3901C2927DB6200B0D64B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85F390232927DB6200B0D64B;
+			remoteInfo = Instagra_App;
+		};
+		85F3903F2927DB6300B0D64B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85F3901C2927DB6200B0D64B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85F390232927DB6200B0D64B;
+			remoteInfo = Instagra_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85F390242927DB6200B0D64B /* Instagra_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagra_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F390272927DB6200B0D64B /* Instagra_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagra_AppApp.swift; sourceTree = "<group>"; };
+		85F390292927DB6200B0D64B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85F3902B2927DB6300B0D64B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85F3902E2927DB6300B0D64B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85F390342927DB6300B0D64B /* Instagra_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Instagra_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F390382927DB6300B0D64B /* Instagra_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagra_AppTests.swift; sourceTree = "<group>"; };
+		85F3903E2927DB6300B0D64B /* Instagra_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Instagra_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F390422927DB6300B0D64B /* Instagra_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagra_AppUITests.swift; sourceTree = "<group>"; };
+		85F390442927DB6300B0D64B /* Instagra_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagra_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85F390512929389B00B0D64B /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		85F390552929619900B0D64B /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		85F3905929296A6C00B0D64B /* StoriesScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesScroll.swift; sourceTree = "<group>"; };
+		85F3905B292A4BF300B0D64B /* PostHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeader.swift; sourceTree = "<group>"; };
+		85F3905D292A527000B0D64B /* PostContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostContent.swift; sourceTree = "<group>"; };
+		85F3905F292A657E00B0D64B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		85F39061292A68DB00B0D64B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		85F39063292A9F7C00B0D64B /* profileIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileIcon.swift; sourceTree = "<group>"; };
+		85F39066292AC43600B0D64B /* PostStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostStruct.swift; sourceTree = "<group>"; };
+		85F39068292AC6D000B0D64B /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		85F3906B292ACBCC00B0D64B /* ViewModelMana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelMana.swift; sourceTree = "<group>"; };
+		85F39070292CC77100B0D64B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		85F39072292CCE9100B0D64B /* ShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowView.swift; sourceTree = "<group>"; };
+		85F39079292CD12000B0D64B /* Reels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reels.swift; sourceTree = "<group>"; };
+		85F3907B292CD7A700B0D64B /* ReelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsView.swift; sourceTree = "<group>"; };
+		85F39084292E626200B0D64B /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		85F39086292E63BB00B0D64B /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		85F3908C292E7E7F00B0D64B /* ProfileDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetails.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85F390212927DB6200B0D64B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85F390312927DB6300B0D64B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85F3903B2927DB6300B0D64B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85F3901B2927DB6200B0D64B = {
+			isa = PBXGroup;
+			children = (
+				85F390272927DB6200B0D64B /* Instagra_AppApp.swift */,
+				85F390262927DB6200B0D64B /* Instagra_App */,
+				85F390372927DB6300B0D64B /* Instagra_AppTests */,
+				85F390412927DB6300B0D64B /* Instagra_AppUITests */,
+				85F390252927DB6200B0D64B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85F390252927DB6200B0D64B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85F390242927DB6200B0D64B /* Instagra_App.app */,
+				85F390342927DB6300B0D64B /* Instagra_AppTests.xctest */,
+				85F3903E2927DB6300B0D64B /* Instagra_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85F390262927DB6200B0D64B /* Instagra_App */ = {
+			isa = PBXGroup;
+			children = (
+				85F39061292A68DB00B0D64B /* MainView.swift */,
+				85F39065292AC42400B0D64B /* Model */,
+				85F3906A292ACBB200B0D64B /* ViewModel */,
+				85F390292927DB6200B0D64B /* ContentView.swift */,
+				85F39070292CC77100B0D64B /* SearchView.swift */,
+				85F3908C292E7E7F00B0D64B /* ProfileDetails.swift */,
+				85F3907B292CD7A700B0D64B /* ReelsView.swift */,
+				85F39072292CCE9100B0D64B /* ShowView.swift */,
+				85F3906D292AD08E00B0D64B /* Post */,
+				85F39076292CD0DB00B0D64B /* Stories */,
+				85F39078292CD10C00B0D64B /* Reels */,
+				85F3902B2927DB6300B0D64B /* Assets.xcassets */,
+				85F3902D2927DB6300B0D64B /* Preview Content */,
+			);
+			path = Instagra_App;
+			sourceTree = "<group>";
+		};
+		85F3902D2927DB6300B0D64B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				85F3902E2927DB6300B0D64B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85F390372927DB6300B0D64B /* Instagra_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				85F390382927DB6300B0D64B /* Instagra_AppTests.swift */,
+			);
+			path = Instagra_AppTests;
+			sourceTree = "<group>";
+		};
+		85F390412927DB6300B0D64B /* Instagra_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85F390422927DB6300B0D64B /* Instagra_AppUITests.swift */,
+				85F390442927DB6300B0D64B /* Instagra_AppUITestsLaunchTests.swift */,
+			);
+			path = Instagra_AppUITests;
+			sourceTree = "<group>";
+		};
+		85F39065292AC42400B0D64B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85F39086292E63BB00B0D64B /* Profile.swift */,
+				85F39066292AC43600B0D64B /* PostStruct.swift */,
+				85F39068292AC6D000B0D64B /* Database.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85F3906A292ACBB200B0D64B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				85F3906B292ACBCC00B0D64B /* ViewModelMana.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		85F3906D292AD08E00B0D64B /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				85F3905B292A4BF300B0D64B /* PostHeader.swift */,
+				85F3905F292A657E00B0D64B /* Post.swift */,
+				85F3905D292A527000B0D64B /* PostContent.swift */,
+				85F39084292E626200B0D64B /* ProfileHeader.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		85F39076292CD0DB00B0D64B /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				85F3905929296A6C00B0D64B /* StoriesScroll.swift */,
+				85F39063292A9F7C00B0D64B /* profileIcon.swift */,
+				85F390512929389B00B0D64B /* Header.swift */,
+				85F390552929619900B0D64B /* Story.swift */,
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		85F39078292CD10C00B0D64B /* Reels */ = {
+			isa = PBXGroup;
+			children = (
+				85F39079292CD12000B0D64B /* Reels.swift */,
+			);
+			path = Reels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85F390232927DB6200B0D64B /* Instagra_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85F390482927DB6300B0D64B /* Build configuration list for PBXNativeTarget "Instagra_App" */;
+			buildPhases = (
+				85F390202927DB6200B0D64B /* Sources */,
+				85F390212927DB6200B0D64B /* Frameworks */,
+				85F390222927DB6200B0D64B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instagra_App;
+			productName = Instagra_App;
+			productReference = 85F390242927DB6200B0D64B /* Instagra_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85F390332927DB6300B0D64B /* Instagra_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85F3904B2927DB6300B0D64B /* Build configuration list for PBXNativeTarget "Instagra_AppTests" */;
+			buildPhases = (
+				85F390302927DB6300B0D64B /* Sources */,
+				85F390312927DB6300B0D64B /* Frameworks */,
+				85F390322927DB6300B0D64B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85F390362927DB6300B0D64B /* PBXTargetDependency */,
+			);
+			name = Instagra_AppTests;
+			productName = Instagra_AppTests;
+			productReference = 85F390342927DB6300B0D64B /* Instagra_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85F3903D2927DB6300B0D64B /* Instagra_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85F3904E2927DB6300B0D64B /* Build configuration list for PBXNativeTarget "Instagra_AppUITests" */;
+			buildPhases = (
+				85F3903A2927DB6300B0D64B /* Sources */,
+				85F3903B2927DB6300B0D64B /* Frameworks */,
+				85F3903C2927DB6300B0D64B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85F390402927DB6300B0D64B /* PBXTargetDependency */,
+			);
+			name = Instagra_AppUITests;
+			productName = Instagra_AppUITests;
+			productReference = 85F3903E2927DB6300B0D64B /* Instagra_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85F3901C2927DB6200B0D64B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					85F390232927DB6200B0D64B = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					85F390332927DB6300B0D64B = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 85F390232927DB6200B0D64B;
+					};
+					85F3903D2927DB6300B0D64B = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 85F390232927DB6200B0D64B;
+					};
+				};
+			};
+			buildConfigurationList = 85F3901F2927DB6200B0D64B /* Build configuration list for PBXProject "iGram" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85F3901B2927DB6200B0D64B;
+			productRefGroup = 85F390252927DB6200B0D64B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85F390232927DB6200B0D64B /* Instagra_App */,
+				85F390332927DB6300B0D64B /* Instagra_AppTests */,
+				85F3903D2927DB6300B0D64B /* Instagra_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85F390222927DB6200B0D64B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F3902F2927DB6300B0D64B /* Preview Assets.xcassets in Resources */,
+				85F3902C2927DB6300B0D64B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85F390322927DB6300B0D64B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85F3903C2927DB6300B0D64B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85F390202927DB6200B0D64B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F3905A29296A6C00B0D64B /* StoriesScroll.swift in Sources */,
+				85F39062292A68DB00B0D64B /* MainView.swift in Sources */,
+				85F3902A2927DB6200B0D64B /* ContentView.swift in Sources */,
+				85F3905E292A527000B0D64B /* PostContent.swift in Sources */,
+				85F3907A292CD12000B0D64B /* Reels.swift in Sources */,
+				85F39060292A657E00B0D64B /* Post.swift in Sources */,
+				85F39073292CCE9100B0D64B /* ShowView.swift in Sources */,
+				85F3908D292E7E7F00B0D64B /* ProfileDetails.swift in Sources */,
+				85F39087292E63BB00B0D64B /* Profile.swift in Sources */,
+				85F3905C292A4BF300B0D64B /* PostHeader.swift in Sources */,
+				85F39085292E626200B0D64B /* ProfileHeader.swift in Sources */,
+				85F39069292AC6D000B0D64B /* Database.swift in Sources */,
+				85F390522929389B00B0D64B /* Header.swift in Sources */,
+				85F3907C292CD7A700B0D64B /* ReelsView.swift in Sources */,
+				85F39067292AC43600B0D64B /* PostStruct.swift in Sources */,
+				85F390282927DB6200B0D64B /* Instagra_AppApp.swift in Sources */,
+				85F39071292CC77100B0D64B /* SearchView.swift in Sources */,
+				85F3906C292ACBCC00B0D64B /* ViewModelMana.swift in Sources */,
+				85F39064292A9F7C00B0D64B /* profileIcon.swift in Sources */,
+				85F390562929619900B0D64B /* Story.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85F390302927DB6300B0D64B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F390392927DB6300B0D64B /* Instagra_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85F3903A2927DB6300B0D64B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F390432927DB6300B0D64B /* Instagra_AppUITests.swift in Sources */,
+				85F390452927DB6300B0D64B /* Instagra_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85F390362927DB6300B0D64B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85F390232927DB6200B0D64B /* Instagra_App */;
+			targetProxy = 85F390352927DB6300B0D64B /* PBXContainerItemProxy */;
+		};
+		85F390402927DB6300B0D64B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85F390232927DB6200B0D64B /* Instagra_App */;
+			targetProxy = 85F3903F2927DB6300B0D64B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		85F390462927DB6300B0D64B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85F390472927DB6300B0D64B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85F390492927DB6300B0D64B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Instagra_App/Preview Content\"";
+				DEVELOPMENT_TEAM = YZPL73955T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iGram;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tikitaka.Instagra-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85F3904A2927DB6300B0D64B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Instagra_App/Preview Content\"";
+				DEVELOPMENT_TEAM = YZPL73955T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iGram;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tikitaka.Instagra-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85F3904C2927DB6300B0D64B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YZPL73955T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tikitaka.Instagra-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instagra_App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Instagra_App";
+			};
+			name = Debug;
+		};
+		85F3904D2927DB6300B0D64B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YZPL73955T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tikitaka.Instagra-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instagra_App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Instagra_App";
+			};
+			name = Release;
+		};
+		85F3904F2927DB6300B0D64B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YZPL73955T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tikitaka.Instagra-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Instagra_App;
+			};
+			name = Debug;
+		};
+		85F390502927DB6300B0D64B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YZPL73955T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tikitaka.Instagra-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Instagra_App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85F3901F2927DB6200B0D64B /* Build configuration list for PBXProject "iGram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85F390462927DB6300B0D64B /* Debug */,
+				85F390472927DB6300B0D64B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85F390482927DB6300B0D64B /* Build configuration list for PBXNativeTarget "Instagra_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85F390492927DB6300B0D64B /* Debug */,
+				85F3904A2927DB6300B0D64B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85F3904B2927DB6300B0D64B /* Build configuration list for PBXNativeTarget "Instagra_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85F3904C2927DB6300B0D64B /* Debug */,
+				85F3904D2927DB6300B0D64B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85F3904E2927DB6300B0D64B /* Build configuration list for PBXNativeTarget "Instagra_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85F3904F2927DB6300B0D64B /* Debug */,
+				85F390502927DB6300B0D64B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85F3901C2927DB6200B0D64B /* Project object */;
+}
