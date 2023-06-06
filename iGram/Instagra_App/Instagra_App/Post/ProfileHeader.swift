@@ -20,6 +20,7 @@ struct ProfileHeader: View {
                         .scaledToFill()
                         .frame(width: 60, height: 60)
                         .cornerRadius(50)
+                        
                 }
                 .overlay {
                     Circle()

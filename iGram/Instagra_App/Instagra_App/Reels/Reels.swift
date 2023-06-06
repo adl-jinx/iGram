@@ -8,7 +8,7 @@
 import SwiftUI
 import WebKit
 
-struct Reels: UIViewRepresentable {
+struct: UIViewRepresentable {
     let videoID: String
     
     func makeUIView(context: Context) -> WKWebView {
@@ -21,3 +21,6 @@ struct Reels: UIViewRepresentable {
         uiView.load(URLRequest(url: youtubeURL))
     }
 }
+
+
+
